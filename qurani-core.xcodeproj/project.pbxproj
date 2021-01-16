@@ -10,6 +10,67 @@
 		E4F844CC25B17D39000DDD9A /* qurani_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F844C225B17D39000DDD9A /* qurani_core.framework */; };
 		E4F844D125B17D39000DDD9A /* qurani_coreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844D025B17D39000DDD9A /* qurani_coreTests.swift */; };
 		E4F844D325B17D39000DDD9A /* qurani_core.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F844C525B17D39000DDD9A /* qurani_core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4F8452925B17D89000DDD9A /* QuraniFontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844DF25B17D89000DDD9A /* QuraniFontLoader.swift */; };
+		E4F8452A25B17D89000DDD9A /* QuraniNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844E025B17D89000DDD9A /* QuraniNumberFormatter.swift */; };
+		E4F8452B25B17D89000DDD9A /* DescriptionProvidersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844E225B17D89000DDD9A /* DescriptionProvidersManager.swift */; };
+		E4F8452C25B17D89000DDD9A /* CompositeAyatRangeDescriptionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844E425B17D89000DDD9A /* CompositeAyatRangeDescriptionProvider.swift */; };
+		E4F8452D25B17D89000DDD9A /* JuzAyatRangeDescriptionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844E525B17D89000DDD9A /* JuzAyatRangeDescriptionProvider.swift */; };
+		E4F8452E25B17D89000DDD9A /* PageAyatRangeDescriptionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844E625B17D89000DDD9A /* PageAyatRangeDescriptionProvider.swift */; };
+		E4F8452F25B17D89000DDD9A /* SurasAyatRangeDescriptionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844E725B17D89000DDD9A /* SurasAyatRangeDescriptionProvider.swift */; };
+		E4F8453025B17D89000DDD9A /* AnyAyatRangeDescriptionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844E825B17D89000DDD9A /* AnyAyatRangeDescriptionProvider.swift */; };
+		E4F8453125B17D89000DDD9A /* AyatRangeDescriptionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844E925B17D89000DDD9A /* AyatRangeDescriptionType.swift */; };
+		E4F8453225B17D89000DDD9A /* AyatRangeDescriptionDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844EB25B17D89000DDD9A /* AyatRangeDescriptionDisplayModel.swift */; };
+		E4F8453325B17D89000DDD9A /* SingleSectionAyatRangeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844EC25B17D89000DDD9A /* SingleSectionAyatRangeDescription.swift */; };
+		E4F8453425B17D89000DDD9A /* MultiSectionAyatRangeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844ED25B17D89000DDD9A /* MultiSectionAyatRangeDescription.swift */; };
+		E4F8453525B17D89000DDD9A /* AyatRangeDisplayModelChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844EE25B17D89000DDD9A /* AyatRangeDisplayModelChooser.swift */; };
+		E4F8453625B17D89000DDD9A /* Juz+AyatRangeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844F025B17D89000DDD9A /* Juz+AyatRangeDescription.swift */; };
+		E4F8453725B17D89000DDD9A /* Page+AyatRangeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844F125B17D89000DDD9A /* Page+AyatRangeDescription.swift */; };
+		E4F8453825B17D89000DDD9A /* DynamicAyatRangeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844F225B17D89000DDD9A /* DynamicAyatRangeDescription.swift */; };
+		E4F8453925B17D89000DDD9A /* AnyAyatRangeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844F325B17D89000DDD9A /* AnyAyatRangeDescription.swift */; };
+		E4F8453A25B17D89000DDD9A /* Sura+AyatRangeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844F425B17D89000DDD9A /* Sura+AyatRangeDescription.swift */; };
+		E4F8453B25B17D89000DDD9A /* AyatRangeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844F525B17D89000DDD9A /* AyatRangeDescription.swift */; };
+		E4F8453C25B17D89000DDD9A /* AyatRangeDescriptionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844F625B17D89000DDD9A /* AyatRangeDescriptionProvider.swift */; };
+		E4F8453D25B17D89000DDD9A /* WirdGeneratorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844F825B17D89000DDD9A /* WirdGeneratorType.swift */; };
+		E4F8453E25B17D89000DDD9A /* WirdGeneratorManifist.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844F925B17D89000DDD9A /* WirdGeneratorManifist.swift */; };
+		E4F8453F25B17D89000DDD9A /* Wird.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844FA25B17D89000DDD9A /* Wird.swift */; };
+		E4F8454025B17D89000DDD9A /* ByDescriptionTypeWirdGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844FC25B17D89000DDD9A /* ByDescriptionTypeWirdGenerator.swift */; };
+		E4F8454125B17D89000DDD9A /* SingleWirdGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844FD25B17D89000DDD9A /* SingleWirdGenerator.swift */; };
+		E4F8454225B17D89000DDD9A /* ByAyatWirdGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844FE25B17D89000DDD9A /* ByAyatWirdGenerator.swift */; };
+		E4F8454325B17D89000DDD9A /* ByJuzWirdGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F844FF25B17D89000DDD9A /* ByJuzWirdGenerator.swift */; };
+		E4F8454425B17D89000DDD9A /* ByPageWirdGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8450025B17D89000DDD9A /* ByPageWirdGenerator.swift */; };
+		E4F8454525B17D89000DDD9A /* BySuraWirdGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8450125B17D89000DDD9A /* BySuraWirdGenerator.swift */; };
+		E4F8454625B17D89000DDD9A /* WirdGeneratorChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8450225B17D89000DDD9A /* WirdGeneratorChooser.swift */; };
+		E4F8454725B17D89000DDD9A /* QuranReferencePlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8450425B17D89000DDD9A /* QuranReferencePlistReader.swift */; };
+		E4F8454825B17D89000DDD9A /* AyatPlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8450525B17D89000DDD9A /* AyatPlistReader.swift */; };
+		E4F8454925B17D89000DDD9A /* QuranAyatReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8450625B17D89000DDD9A /* QuranAyatReader.swift */; };
+		E4F8454A25B17D89000DDD9A /* AyatXMLReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8450725B17D89000DDD9A /* AyatXMLReader.swift */; };
+		E4F8454B25B17D89000DDD9A /* QuranReferenceReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8450825B17D89000DDD9A /* QuranReferenceReader.swift */; };
+		E4F8454C25B17D89000DDD9A /* MemorizableAyatRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8450A25B17D89000DDD9A /* MemorizableAyatRange.swift */; };
+		E4F8454D25B17D89000DDD9A /* MemorizableDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8450B25B17D89000DDD9A /* MemorizableDescriptor.swift */; };
+		E4F8454E25B17D89000DDD9A /* AyatRangeDescriptionsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8450C25B17D89000DDD9A /* AyatRangeDescriptionsStore.swift */; };
+		E4F8454F25B17D89000DDD9A /* QuraniProgressable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8450D25B17D89000DDD9A /* QuraniProgressable.swift */; };
+		E4F8455025B17D89000DDD9A /* AyatMemorizeStateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8450E25B17D89000DDD9A /* AyatMemorizeStateProvider.swift */; };
+		E4F8455125B17D89000DDD9A /* QuraniProgressGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8450F25B17D89000DDD9A /* QuraniProgressGroup.swift */; };
+		E4F8455225B17D89000DDD9A /* FileMemorizablesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8451025B17D89000DDD9A /* FileMemorizablesStore.swift */; };
+		E4F8455325B17D89000DDD9A /* UthmanicHafs1 Ver12.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4F8451325B17D89000DDD9A /* UthmanicHafs1 Ver12.otf */; };
+		E4F8455425B17D89000DDD9A /* UthmanicHafs1B Ver12.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4F8451425B17D89000DDD9A /* UthmanicHafs1B Ver12.otf */; };
+		E4F8455525B17D89000DDD9A /* me_quran.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4F8451525B17D89000DDD9A /* me_quran.ttf */; };
+		E4F8455625B17D89000DDD9A /* quran-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4F8451725B17D89000DDD9A /* quran-data.plist */; };
+		E4F8455725B17D89000DDD9A /* quran-data.xml in Resources */ = {isa = PBXBuildFile; fileRef = E4F8451825B17D89000DDD9A /* quran-data.xml */; };
+		E4F8455825B17D89000DDD9A /* quran-simple-enhanced.xml in Resources */ = {isa = PBXBuildFile; fileRef = E4F8451925B17D89000DDD9A /* quran-simple-enhanced.xml */; };
+		E4F8455925B17D89000DDD9A /* ayat.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4F8451A25B17D89000DDD9A /* ayat.plist */; };
+		E4F8455A25B17D89000DDD9A /* AyatRangeModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8451C25B17D89000DDD9A /* AyatRangeModelType.swift */; };
+		E4F8455B25B17D89000DDD9A /* Quran.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8451D25B17D89000DDD9A /* Quran.swift */; };
+		E4F8455C25B17D89000DDD9A /* AyatIndexedModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8451E25B17D89000DDD9A /* AyatIndexedModelType.swift */; };
+		E4F8455D25B17D89000DDD9A /* Hizb.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8452025B17D89000DDD9A /* Hizb.swift */; };
+		E4F8455E25B17D89000DDD9A /* Sajda.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8452125B17D89000DDD9A /* Sajda.swift */; };
+		E4F8455F25B17D89000DDD9A /* Juz.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8452225B17D89000DDD9A /* Juz.swift */; };
+		E4F8456025B17D89000DDD9A /* QuranReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8452325B17D89000DDD9A /* QuranReference.swift */; };
+		E4F8456125B17D89000DDD9A /* Sura.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8452425B17D89000DDD9A /* Sura.swift */; };
+		E4F8456225B17D89000DDD9A /* Manzil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8452525B17D89000DDD9A /* Manzil.swift */; };
+		E4F8456325B17D89000DDD9A /* Ruku.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8452625B17D89000DDD9A /* Ruku.swift */; };
+		E4F8456425B17D89000DDD9A /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8452725B17D89000DDD9A /* Page.swift */; };
+		E4F8456525B17D89000DDD9A /* Aya.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F8452825B17D89000DDD9A /* Aya.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +84,74 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E4964EB625B2D0DC00F51811 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E4F844C225B17D39000DDD9A /* qurani_core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = qurani_core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F844C525B17D39000DDD9A /* qurani_core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qurani_core.h; sourceTree = "<group>"; };
 		E4F844C625B17D39000DDD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4F844CB25B17D39000DDD9A /* qurani-coreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "qurani-coreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F844D025B17D39000DDD9A /* qurani_coreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qurani_coreTests.swift; sourceTree = "<group>"; };
 		E4F844D225B17D39000DDD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4F844DF25B17D89000DDD9A /* QuraniFontLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuraniFontLoader.swift; sourceTree = "<group>"; };
+		E4F844E025B17D89000DDD9A /* QuraniNumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuraniNumberFormatter.swift; sourceTree = "<group>"; };
+		E4F844E225B17D89000DDD9A /* DescriptionProvidersManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionProvidersManager.swift; sourceTree = "<group>"; };
+		E4F844E425B17D89000DDD9A /* CompositeAyatRangeDescriptionProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositeAyatRangeDescriptionProvider.swift; sourceTree = "<group>"; };
+		E4F844E525B17D89000DDD9A /* JuzAyatRangeDescriptionProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JuzAyatRangeDescriptionProvider.swift; sourceTree = "<group>"; };
+		E4F844E625B17D89000DDD9A /* PageAyatRangeDescriptionProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageAyatRangeDescriptionProvider.swift; sourceTree = "<group>"; };
+		E4F844E725B17D89000DDD9A /* SurasAyatRangeDescriptionProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurasAyatRangeDescriptionProvider.swift; sourceTree = "<group>"; };
+		E4F844E825B17D89000DDD9A /* AnyAyatRangeDescriptionProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyAyatRangeDescriptionProvider.swift; sourceTree = "<group>"; };
+		E4F844E925B17D89000DDD9A /* AyatRangeDescriptionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AyatRangeDescriptionType.swift; sourceTree = "<group>"; };
+		E4F844EB25B17D89000DDD9A /* AyatRangeDescriptionDisplayModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AyatRangeDescriptionDisplayModel.swift; sourceTree = "<group>"; };
+		E4F844EC25B17D89000DDD9A /* SingleSectionAyatRangeDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleSectionAyatRangeDescription.swift; sourceTree = "<group>"; };
+		E4F844ED25B17D89000DDD9A /* MultiSectionAyatRangeDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiSectionAyatRangeDescription.swift; sourceTree = "<group>"; };
+		E4F844EE25B17D89000DDD9A /* AyatRangeDisplayModelChooser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AyatRangeDisplayModelChooser.swift; sourceTree = "<group>"; };
+		E4F844F025B17D89000DDD9A /* Juz+AyatRangeDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Juz+AyatRangeDescription.swift"; sourceTree = "<group>"; };
+		E4F844F125B17D89000DDD9A /* Page+AyatRangeDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Page+AyatRangeDescription.swift"; sourceTree = "<group>"; };
+		E4F844F225B17D89000DDD9A /* DynamicAyatRangeDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicAyatRangeDescription.swift; sourceTree = "<group>"; };
+		E4F844F325B17D89000DDD9A /* AnyAyatRangeDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyAyatRangeDescription.swift; sourceTree = "<group>"; };
+		E4F844F425B17D89000DDD9A /* Sura+AyatRangeDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sura+AyatRangeDescription.swift"; sourceTree = "<group>"; };
+		E4F844F525B17D89000DDD9A /* AyatRangeDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AyatRangeDescription.swift; sourceTree = "<group>"; };
+		E4F844F625B17D89000DDD9A /* AyatRangeDescriptionProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AyatRangeDescriptionProvider.swift; sourceTree = "<group>"; };
+		E4F844F825B17D89000DDD9A /* WirdGeneratorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WirdGeneratorType.swift; sourceTree = "<group>"; };
+		E4F844F925B17D89000DDD9A /* WirdGeneratorManifist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WirdGeneratorManifist.swift; sourceTree = "<group>"; };
+		E4F844FA25B17D89000DDD9A /* Wird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wird.swift; sourceTree = "<group>"; };
+		E4F844FC25B17D89000DDD9A /* ByDescriptionTypeWirdGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ByDescriptionTypeWirdGenerator.swift; sourceTree = "<group>"; };
+		E4F844FD25B17D89000DDD9A /* SingleWirdGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleWirdGenerator.swift; sourceTree = "<group>"; };
+		E4F844FE25B17D89000DDD9A /* ByAyatWirdGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ByAyatWirdGenerator.swift; sourceTree = "<group>"; };
+		E4F844FF25B17D89000DDD9A /* ByJuzWirdGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ByJuzWirdGenerator.swift; sourceTree = "<group>"; };
+		E4F8450025B17D89000DDD9A /* ByPageWirdGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ByPageWirdGenerator.swift; sourceTree = "<group>"; };
+		E4F8450125B17D89000DDD9A /* BySuraWirdGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BySuraWirdGenerator.swift; sourceTree = "<group>"; };
+		E4F8450225B17D89000DDD9A /* WirdGeneratorChooser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WirdGeneratorChooser.swift; sourceTree = "<group>"; };
+		E4F8450425B17D89000DDD9A /* QuranReferencePlistReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranReferencePlistReader.swift; sourceTree = "<group>"; };
+		E4F8450525B17D89000DDD9A /* AyatPlistReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AyatPlistReader.swift; sourceTree = "<group>"; };
+		E4F8450625B17D89000DDD9A /* QuranAyatReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranAyatReader.swift; sourceTree = "<group>"; };
+		E4F8450725B17D89000DDD9A /* AyatXMLReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AyatXMLReader.swift; sourceTree = "<group>"; };
+		E4F8450825B17D89000DDD9A /* QuranReferenceReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranReferenceReader.swift; sourceTree = "<group>"; };
+		E4F8450A25B17D89000DDD9A /* MemorizableAyatRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemorizableAyatRange.swift; sourceTree = "<group>"; };
+		E4F8450B25B17D89000DDD9A /* MemorizableDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemorizableDescriptor.swift; sourceTree = "<group>"; };
+		E4F8450C25B17D89000DDD9A /* AyatRangeDescriptionsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AyatRangeDescriptionsStore.swift; sourceTree = "<group>"; };
+		E4F8450D25B17D89000DDD9A /* QuraniProgressable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuraniProgressable.swift; sourceTree = "<group>"; };
+		E4F8450E25B17D89000DDD9A /* AyatMemorizeStateProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AyatMemorizeStateProvider.swift; sourceTree = "<group>"; };
+		E4F8450F25B17D89000DDD9A /* QuraniProgressGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuraniProgressGroup.swift; sourceTree = "<group>"; };
+		E4F8451025B17D89000DDD9A /* FileMemorizablesStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileMemorizablesStore.swift; sourceTree = "<group>"; };
+		E4F8451325B17D89000DDD9A /* UthmanicHafs1 Ver12.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UthmanicHafs1 Ver12.otf"; sourceTree = "<group>"; };
+		E4F8451425B17D89000DDD9A /* UthmanicHafs1B Ver12.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UthmanicHafs1B Ver12.otf"; sourceTree = "<group>"; };
+		E4F8451525B17D89000DDD9A /* me_quran.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = me_quran.ttf; sourceTree = "<group>"; };
+		E4F8451725B17D89000DDD9A /* quran-data.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "quran-data.plist"; sourceTree = "<group>"; };
+		E4F8451825B17D89000DDD9A /* quran-data.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "quran-data.xml"; sourceTree = "<group>"; };
+		E4F8451925B17D89000DDD9A /* quran-simple-enhanced.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "quran-simple-enhanced.xml"; sourceTree = "<group>"; };
+		E4F8451A25B17D89000DDD9A /* ayat.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ayat.plist; sourceTree = "<group>"; };
+		E4F8451C25B17D89000DDD9A /* AyatRangeModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AyatRangeModelType.swift; sourceTree = "<group>"; };
+		E4F8451D25B17D89000DDD9A /* Quran.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quran.swift; sourceTree = "<group>"; };
+		E4F8451E25B17D89000DDD9A /* AyatIndexedModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AyatIndexedModelType.swift; sourceTree = "<group>"; };
+		E4F8452025B17D89000DDD9A /* Hizb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hizb.swift; sourceTree = "<group>"; };
+		E4F8452125B17D89000DDD9A /* Sajda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sajda.swift; sourceTree = "<group>"; };
+		E4F8452225B17D89000DDD9A /* Juz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Juz.swift; sourceTree = "<group>"; };
+		E4F8452325B17D89000DDD9A /* QuranReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranReference.swift; sourceTree = "<group>"; };
+		E4F8452425B17D89000DDD9A /* Sura.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sura.swift; sourceTree = "<group>"; };
+		E4F8452525B17D89000DDD9A /* Manzil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manzil.swift; sourceTree = "<group>"; };
+		E4F8452625B17D89000DDD9A /* Ruku.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ruku.swift; sourceTree = "<group>"; };
+		E4F8452725B17D89000DDD9A /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		E4F8452825B17D89000DDD9A /* Aya.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aya.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +176,7 @@
 		E4F844B825B17D39000DDD9A = {
 			isa = PBXGroup;
 			children = (
+				E4964EB625B2D0DC00F51811 /* README.md */,
 				E4F844C425B17D39000DDD9A /* qurani-core */,
 				E4F844CF25B17D39000DDD9A /* qurani-coreTests */,
 				E4F844C325B17D39000DDD9A /* Products */,
@@ -72,6 +196,13 @@
 			isa = PBXGroup;
 			children = (
 				E4F844C525B17D39000DDD9A /* qurani_core.h */,
+				E4F8451B25B17D89000DDD9A /* Holy Quran Representation Model */,
+				E4F8450325B17D89000DDD9A /* Quran Readers */,
+				E4F844E125B17D89000DDD9A /* Ayat Range Description */,
+				E4F844F725B17D89000DDD9A /* Wirds Generation */,
+				E4F844DE25B17D89000DDD9A /* Utilities */,
+				E4F8450925B17D89000DDD9A /* Memorization */,
+				E4F8451125B17D89000DDD9A /* Resources */,
 				E4F844C625B17D39000DDD9A /* Info.plist */,
 			);
 			path = "qurani-core";
@@ -84,6 +215,172 @@
 				E4F844D225B17D39000DDD9A /* Info.plist */,
 			);
 			path = "qurani-coreTests";
+			sourceTree = "<group>";
+		};
+		E4F844DE25B17D89000DDD9A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E4F844DF25B17D89000DDD9A /* QuraniFontLoader.swift */,
+				E4F844E025B17D89000DDD9A /* QuraniNumberFormatter.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E4F844E125B17D89000DDD9A /* Ayat Range Description */ = {
+			isa = PBXGroup;
+			children = (
+				E4F844EF25B17D89000DDD9A /* Available Ayat Range Descriptions */,
+				E4F844E325B17D89000DDD9A /* Available Description Providers */,
+				E4F844EA25B17D89000DDD9A /* Combination */,
+				E4F844E225B17D89000DDD9A /* DescriptionProvidersManager.swift */,
+				E4F844E925B17D89000DDD9A /* AyatRangeDescriptionType.swift */,
+				E4F844F525B17D89000DDD9A /* AyatRangeDescription.swift */,
+				E4F844F625B17D89000DDD9A /* AyatRangeDescriptionProvider.swift */,
+			);
+			path = "Ayat Range Description";
+			sourceTree = "<group>";
+		};
+		E4F844E325B17D89000DDD9A /* Available Description Providers */ = {
+			isa = PBXGroup;
+			children = (
+				E4F844E425B17D89000DDD9A /* CompositeAyatRangeDescriptionProvider.swift */,
+				E4F844E825B17D89000DDD9A /* AnyAyatRangeDescriptionProvider.swift */,
+				E4F844E525B17D89000DDD9A /* JuzAyatRangeDescriptionProvider.swift */,
+				E4F844E625B17D89000DDD9A /* PageAyatRangeDescriptionProvider.swift */,
+				E4F844E725B17D89000DDD9A /* SurasAyatRangeDescriptionProvider.swift */,
+			);
+			path = "Available Description Providers";
+			sourceTree = "<group>";
+		};
+		E4F844EA25B17D89000DDD9A /* Combination */ = {
+			isa = PBXGroup;
+			children = (
+				E4F844EB25B17D89000DDD9A /* AyatRangeDescriptionDisplayModel.swift */,
+				E4F844EC25B17D89000DDD9A /* SingleSectionAyatRangeDescription.swift */,
+				E4F844ED25B17D89000DDD9A /* MultiSectionAyatRangeDescription.swift */,
+				E4F844EE25B17D89000DDD9A /* AyatRangeDisplayModelChooser.swift */,
+			);
+			path = Combination;
+			sourceTree = "<group>";
+		};
+		E4F844EF25B17D89000DDD9A /* Available Ayat Range Descriptions */ = {
+			isa = PBXGroup;
+			children = (
+				E4F844F025B17D89000DDD9A /* Juz+AyatRangeDescription.swift */,
+				E4F844F125B17D89000DDD9A /* Page+AyatRangeDescription.swift */,
+				E4F844F425B17D89000DDD9A /* Sura+AyatRangeDescription.swift */,
+				E4F844F225B17D89000DDD9A /* DynamicAyatRangeDescription.swift */,
+				E4F844F325B17D89000DDD9A /* AnyAyatRangeDescription.swift */,
+			);
+			path = "Available Ayat Range Descriptions";
+			sourceTree = "<group>";
+		};
+		E4F844F725B17D89000DDD9A /* Wirds Generation */ = {
+			isa = PBXGroup;
+			children = (
+				E4F844FB25B17D89000DDD9A /* Generators */,
+				E4F844F825B17D89000DDD9A /* WirdGeneratorType.swift */,
+				E4F844F925B17D89000DDD9A /* WirdGeneratorManifist.swift */,
+				E4F844FA25B17D89000DDD9A /* Wird.swift */,
+				E4F8450225B17D89000DDD9A /* WirdGeneratorChooser.swift */,
+			);
+			path = "Wirds Generation";
+			sourceTree = "<group>";
+		};
+		E4F844FB25B17D89000DDD9A /* Generators */ = {
+			isa = PBXGroup;
+			children = (
+				E4F844FC25B17D89000DDD9A /* ByDescriptionTypeWirdGenerator.swift */,
+				E4F844FD25B17D89000DDD9A /* SingleWirdGenerator.swift */,
+				E4F844FE25B17D89000DDD9A /* ByAyatWirdGenerator.swift */,
+				E4F844FF25B17D89000DDD9A /* ByJuzWirdGenerator.swift */,
+				E4F8450025B17D89000DDD9A /* ByPageWirdGenerator.swift */,
+				E4F8450125B17D89000DDD9A /* BySuraWirdGenerator.swift */,
+			);
+			path = Generators;
+			sourceTree = "<group>";
+		};
+		E4F8450325B17D89000DDD9A /* Quran Readers */ = {
+			isa = PBXGroup;
+			children = (
+				E4F8450425B17D89000DDD9A /* QuranReferencePlistReader.swift */,
+				E4F8450525B17D89000DDD9A /* AyatPlistReader.swift */,
+				E4F8450725B17D89000DDD9A /* AyatXMLReader.swift */,
+				E4F8450625B17D89000DDD9A /* QuranAyatReader.swift */,
+				E4F8450825B17D89000DDD9A /* QuranReferenceReader.swift */,
+			);
+			path = "Quran Readers";
+			sourceTree = "<group>";
+		};
+		E4F8450925B17D89000DDD9A /* Memorization */ = {
+			isa = PBXGroup;
+			children = (
+				E4F8450A25B17D89000DDD9A /* MemorizableAyatRange.swift */,
+				E4F8450B25B17D89000DDD9A /* MemorizableDescriptor.swift */,
+				E4F8450C25B17D89000DDD9A /* AyatRangeDescriptionsStore.swift */,
+				E4F8450E25B17D89000DDD9A /* AyatMemorizeStateProvider.swift */,
+				E4F8450D25B17D89000DDD9A /* QuraniProgressable.swift */,
+				E4F8450F25B17D89000DDD9A /* QuraniProgressGroup.swift */,
+				E4F8451025B17D89000DDD9A /* FileMemorizablesStore.swift */,
+			);
+			path = Memorization;
+			sourceTree = "<group>";
+		};
+		E4F8451125B17D89000DDD9A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E4F8451225B17D89000DDD9A /* Fonts */,
+				E4F8451625B17D89000DDD9A /* Data */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E4F8451225B17D89000DDD9A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E4F8451325B17D89000DDD9A /* UthmanicHafs1 Ver12.otf */,
+				E4F8451425B17D89000DDD9A /* UthmanicHafs1B Ver12.otf */,
+				E4F8451525B17D89000DDD9A /* me_quran.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E4F8451625B17D89000DDD9A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E4F8451725B17D89000DDD9A /* quran-data.plist */,
+				E4F8451A25B17D89000DDD9A /* ayat.plist */,
+				E4F8451825B17D89000DDD9A /* quran-data.xml */,
+				E4F8451925B17D89000DDD9A /* quran-simple-enhanced.xml */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E4F8451B25B17D89000DDD9A /* Holy Quran Representation Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4F8451F25B17D89000DDD9A /* Reference */,
+				E4F8451D25B17D89000DDD9A /* Quran.swift */,
+				E4F8451C25B17D89000DDD9A /* AyatRangeModelType.swift */,
+				E4F8451E25B17D89000DDD9A /* AyatIndexedModelType.swift */,
+			);
+			path = "Holy Quran Representation Model";
+			sourceTree = "<group>";
+		};
+		E4F8451F25B17D89000DDD9A /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				E4F8452325B17D89000DDD9A /* QuranReference.swift */,
+				E4F8452825B17D89000DDD9A /* Aya.swift */,
+				E4F8452025B17D89000DDD9A /* Hizb.swift */,
+				E4F8452125B17D89000DDD9A /* Sajda.swift */,
+				E4F8452225B17D89000DDD9A /* Juz.swift */,
+				E4F8452425B17D89000DDD9A /* Sura.swift */,
+				E4F8452525B17D89000DDD9A /* Manzil.swift */,
+				E4F8452625B17D89000DDD9A /* Ruku.swift */,
+				E4F8452725B17D89000DDD9A /* Page.swift */,
+			);
+			path = Reference;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +474,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F8455625B17D89000DDD9A /* quran-data.plist in Resources */,
+				E4F8455325B17D89000DDD9A /* UthmanicHafs1 Ver12.otf in Resources */,
+				E4F8455725B17D89000DDD9A /* quran-data.xml in Resources */,
+				E4F8455925B17D89000DDD9A /* ayat.plist in Resources */,
+				E4F8455825B17D89000DDD9A /* quran-simple-enhanced.xml in Resources */,
+				E4F8455525B17D89000DDD9A /* me_quran.ttf in Resources */,
+				E4F8455425B17D89000DDD9A /* UthmanicHafs1B Ver12.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +498,60 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F8454325B17D89000DDD9A /* ByJuzWirdGenerator.swift in Sources */,
+				E4F8455A25B17D89000DDD9A /* AyatRangeModelType.swift in Sources */,
+				E4F8453C25B17D89000DDD9A /* AyatRangeDescriptionProvider.swift in Sources */,
+				E4F8453225B17D89000DDD9A /* AyatRangeDescriptionDisplayModel.swift in Sources */,
+				E4F8454D25B17D89000DDD9A /* MemorizableDescriptor.swift in Sources */,
+				E4F8452C25B17D89000DDD9A /* CompositeAyatRangeDescriptionProvider.swift in Sources */,
+				E4F8455D25B17D89000DDD9A /* Hizb.swift in Sources */,
+				E4F8455025B17D89000DDD9A /* AyatMemorizeStateProvider.swift in Sources */,
+				E4F8456325B17D89000DDD9A /* Ruku.swift in Sources */,
+				E4F8454C25B17D89000DDD9A /* MemorizableAyatRange.swift in Sources */,
+				E4F8455E25B17D89000DDD9A /* Sajda.swift in Sources */,
+				E4F8456525B17D89000DDD9A /* Aya.swift in Sources */,
+				E4F8456225B17D89000DDD9A /* Manzil.swift in Sources */,
+				E4F8456125B17D89000DDD9A /* Sura.swift in Sources */,
+				E4F8452E25B17D89000DDD9A /* PageAyatRangeDescriptionProvider.swift in Sources */,
+				E4F8454425B17D89000DDD9A /* ByPageWirdGenerator.swift in Sources */,
+				E4F8454E25B17D89000DDD9A /* AyatRangeDescriptionsStore.swift in Sources */,
+				E4F8455F25B17D89000DDD9A /* Juz.swift in Sources */,
+				E4F8453825B17D89000DDD9A /* DynamicAyatRangeDescription.swift in Sources */,
+				E4F8453F25B17D89000DDD9A /* Wird.swift in Sources */,
+				E4F8453925B17D89000DDD9A /* AnyAyatRangeDescription.swift in Sources */,
+				E4F8453325B17D89000DDD9A /* SingleSectionAyatRangeDescription.swift in Sources */,
+				E4F8454925B17D89000DDD9A /* QuranAyatReader.swift in Sources */,
+				E4F8453725B17D89000DDD9A /* Page+AyatRangeDescription.swift in Sources */,
+				E4F8454225B17D89000DDD9A /* ByAyatWirdGenerator.swift in Sources */,
+				E4F8454A25B17D89000DDD9A /* AyatXMLReader.swift in Sources */,
+				E4F8452D25B17D89000DDD9A /* JuzAyatRangeDescriptionProvider.swift in Sources */,
+				E4F8453525B17D89000DDD9A /* AyatRangeDisplayModelChooser.swift in Sources */,
+				E4F8453E25B17D89000DDD9A /* WirdGeneratorManifist.swift in Sources */,
+				E4F8453D25B17D89000DDD9A /* WirdGeneratorType.swift in Sources */,
+				E4F8456025B17D89000DDD9A /* QuranReference.swift in Sources */,
+				E4F8454125B17D89000DDD9A /* SingleWirdGenerator.swift in Sources */,
+				E4F8453025B17D89000DDD9A /* AnyAyatRangeDescriptionProvider.swift in Sources */,
+				E4F8455B25B17D89000DDD9A /* Quran.swift in Sources */,
+				E4F8453B25B17D89000DDD9A /* AyatRangeDescription.swift in Sources */,
+				E4F8455125B17D89000DDD9A /* QuraniProgressGroup.swift in Sources */,
+				E4F8453A25B17D89000DDD9A /* Sura+AyatRangeDescription.swift in Sources */,
+				E4F8452925B17D89000DDD9A /* QuraniFontLoader.swift in Sources */,
+				E4F8453125B17D89000DDD9A /* AyatRangeDescriptionType.swift in Sources */,
+				E4F8454B25B17D89000DDD9A /* QuranReferenceReader.swift in Sources */,
+				E4F8453625B17D89000DDD9A /* Juz+AyatRangeDescription.swift in Sources */,
+				E4F8452B25B17D89000DDD9A /* DescriptionProvidersManager.swift in Sources */,
+				E4F8453425B17D89000DDD9A /* MultiSectionAyatRangeDescription.swift in Sources */,
+				E4F8454525B17D89000DDD9A /* BySuraWirdGenerator.swift in Sources */,
+				E4F8454025B17D89000DDD9A /* ByDescriptionTypeWirdGenerator.swift in Sources */,
+				E4F8455C25B17D89000DDD9A /* AyatIndexedModelType.swift in Sources */,
+				E4F8454625B17D89000DDD9A /* WirdGeneratorChooser.swift in Sources */,
+				E4F8452A25B17D89000DDD9A /* QuraniNumberFormatter.swift in Sources */,
+				E4F8454725B17D89000DDD9A /* QuranReferencePlistReader.swift in Sources */,
+				E4F8454825B17D89000DDD9A /* AyatPlistReader.swift in Sources */,
+				E4F8452F25B17D89000DDD9A /* SurasAyatRangeDescriptionProvider.swift in Sources */,
+				E4F8456425B17D89000DDD9A /* Page.swift in Sources */,
+				E4F8454F25B17D89000DDD9A /* QuraniProgressable.swift in Sources */,
+				E4F8455225B17D89000DDD9A /* FileMemorizablesStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +747,7 @@
 		E4F844DA25B17D39000DDD9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 445RDPUPND;
 				INFOPLIST_FILE = "qurani-coreTests/Info.plist";
@@ -407,6 +766,7 @@
 		E4F844DB25B17D39000DDD9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 445RDPUPND;
 				INFOPLIST_FILE = "qurani-coreTests/Info.plist";
