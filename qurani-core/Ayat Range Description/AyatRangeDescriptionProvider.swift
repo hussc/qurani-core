@@ -22,7 +22,7 @@ public struct AyatRangeDescriptionParameters {
 	public var type: AyatRangeDescriptionType?
 }
 
-/*
+/**
 	The job for the range description provider is to provide a description for a choosen parameters, the parameters include the given ayat range.
 
 	Although, another job is to list all available ayat range descriptions, so the user can choose from.
@@ -38,7 +38,7 @@ public class AyatRangeDescriptionProvider<R: AyatRangeDescription> {
 
 extension AyatRangeDescriptionProvider {
 	
-	// a description is returned based on the start index of the range, usually there is only one description for the given start index of the range, so this one is taken.
+	/// a description is returned based on the start index of the range, usually there is only one description for the given start index of the range, so this one is taken.
 	public func description(for parameters: AyatRangeDescriptionParameters) -> R? {
 		return descriptions.filter {
 			$0.type == parameters.type

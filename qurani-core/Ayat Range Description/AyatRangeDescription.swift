@@ -27,7 +27,9 @@ public protocol AyatRangeDescription: AyatRangeModelType {
 	/// additional information
 	var subtitle: String { get }
 	
-	
+    /**
+     the identifier for the ayat range description
+     */
 	var type: AyatRangeDescriptionType { get }
 }
 

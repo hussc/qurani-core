@@ -200,8 +200,8 @@
 				E4F8450325B17D89000DDD9A /* Quran Readers */,
 				E4F844E125B17D89000DDD9A /* Ayat Range Description */,
 				E4F844F725B17D89000DDD9A /* Wirds Generation */,
-				E4F844DE25B17D89000DDD9A /* Utilities */,
 				E4F8450925B17D89000DDD9A /* Memorization */,
+				E4F844DE25B17D89000DDD9A /* Utilities */,
 				E4F8451125B17D89000DDD9A /* Resources */,
 				E4F844C625B17D39000DDD9A /* Info.plist */,
 			);
