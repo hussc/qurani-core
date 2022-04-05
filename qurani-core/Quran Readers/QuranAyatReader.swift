@@ -11,6 +11,6 @@ import Foundation
 /**
  Any reader takes the content of the ayat from it's file, and performs a read operation to return an array of "Aya", in the holy quran.
  */
-internal protocol QuranAyatReader: class {
+internal protocol QuranAyatReader: AnyObject {
 	func readAyat() throws -> [Aya]
 }

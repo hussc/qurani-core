@@ -8,10 +8,9 @@
 
 import Foundation
 
-
 /**
  A type that performs a read of marks in the holy quran, that does not include the ayat.
  */
-internal protocol QuranReferenceReader: class {
+internal protocol QuranReferenceReader: AnyObject {
 	func readReference() throws -> QuranReference
 }

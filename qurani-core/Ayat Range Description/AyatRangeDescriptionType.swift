@@ -12,8 +12,8 @@ public enum AyatRangeDescriptionType: Int, CaseIterable, Codable {
 	case sura
 	case juz
 	case page
-//	case hizb
-//	case ruku
+	case hizb
+	case ruku
 //	case manzil
 	
 	public var name: String {
@@ -24,6 +24,10 @@ public enum AyatRangeDescriptionType: Int, CaseIterable, Codable {
 			return "جزء"
 		case .page:
 			return "صفحة"
+        case .hizb:
+            return "حزب"
+        case .ruku:
+            return "ركوع"
 		}
 	}
 }
